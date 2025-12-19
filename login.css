@@ -1,0 +1,84 @@
+body{
+    background-color: #3f3f3f;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.login-container{
+    background: #3c3d3b;
+    width: 1300px;
+    padding: 70px;
+    color: white;
+    margin: 130px 30px;
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    align-items: center;
+    box-shadow: 0 0 10px 15px rgba(44, 49, 44, 0.7);
+    
+}
+
+.form-area{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.logo{
+    flex-grow: 1;
+    max-width: 100%;
+    height: auto;
+    
+}
+button{
+    width: 100%;
+    background-color: #4d4b4a;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.input-field{
+    width: 100%;
+    background-color: #6b6766;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+label{
+    display: block;
+    margin: 15px auto 5px;
+}
+
+.remember-me label{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.submit-button{
+    background-color: #9A938F;
+    width: 25%;
+    margin: 40px auto 0;
+    color: #413c3a;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.remember-me label input{
+    margin: 0 10px 0 0;
+}
+
+.REGISTER{
+    text-decoration: none;
+    color: rgb(99, 202, 250);
+}
